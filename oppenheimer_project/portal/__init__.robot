@@ -2,7 +2,7 @@
 Library             SeleniumLibrary
 Resource            ./variables/common_variables.robot
 Suite Setup         Suite Setup
-#Suite Teardown      Suite Teardown
+Suite Teardown      Suite Teardown
 
 *** Keywords ***
 Suite Setup
