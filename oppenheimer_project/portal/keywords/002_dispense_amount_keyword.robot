@@ -6,7 +6,7 @@ Resource        ../pages/002_dispense_amount_page.robot
 
 *** Keywords ***
 Red "Dispense Now" Button Displayed
-    "Dispense Now" Button Displayed
+    #"Dispense Now" Button Displayed
     Verify that "Dispense Now" Button Is Red Colour
 
 Text On Button Display "Dispense Now"
