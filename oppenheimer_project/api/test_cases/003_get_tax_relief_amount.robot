@@ -137,7 +137,7 @@ TC 21: Tax Relief Amount Before Normal Rounding Rule Is 1000.495
     #For this scenario, you can either have a validation to NOT allow ${tax} > ${salary}
     #or if calculated tax relief amount is < 50.00 then the final tax relief amount should be 50.00
     #${birthday}    ${gender}    ${name}        ${natid}    ${salary}       ${tax}      ${masked_natid}     ${tax_relief}
-    01011975        M            Jung Kook      ABC123      3000.99         1000        ABC1$$              1000           #Actual Value = 1000.495
+    01011975        M            Jung Kook      ABC123      3000.99         1000        ABC1$$              1000.00        #Actual Value = 1000.495
 
 TC 22: Tax Relief Amount Before Normal Rounding Rule Is 1000.494
     [Template]    Tax Relief Calculation
@@ -145,5 +145,5 @@ TC 22: Tax Relief Amount Before Normal Rounding Rule Is 1000.494
     #For this scenario, you can either have a validation to NOT allow ${tax} > ${salary}
     #or if calculated tax relief amount is < 50.00 then the final tax relief amount should be 50.00
     #${birthday}    ${gender}    ${name}        ${natid}    ${salary}       ${tax}      ${masked_natid}     ${tax_relief}
-    01011975        M            Jung Kook      ABC123      3000.988        1000        ABC1$$              1000           #Actual Value = 1000.494
+    01011975        M            Jung Kook      ABC123      3000.988        1000        ABC1$$              1000.00        #Actual Value = 1000.494
 
