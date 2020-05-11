@@ -36,5 +36,5 @@ TC 4: Exceeded File Size Limit
     [Template]    Failed To Upload CSV File
     [Tags]        exceeded_file_size_limit
     #${file}                                                                                    ${error}
-    ${upload_csv_folder}/incorrect_values.csv                                                   Missing column header. CSV file should contain column header: natid, name, gender, salary, birthday, tax.
+    ${upload_csv_folder}/incorrect_values.csv                                                   Exceeded 2MB file size limit.
 
